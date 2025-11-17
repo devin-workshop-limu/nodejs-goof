@@ -73,7 +73,9 @@ app.use(st({ path: './public', url: '/public' }));
 
 // Add the option to output (sanitized!) markdown
 marked.setOptions({ sanitize: true });
-app.locals.marked = marked;
+app.locals.marked = function(text) {
+  return marked.parse(text);
+};
 
 // development only
 if (app.get('env') == 'development') {
