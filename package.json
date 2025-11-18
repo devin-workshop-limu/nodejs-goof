@@ -20,7 +20,7 @@
     "cfenv": "^1.2.4",
     "consolidate": "0.14.5",
     "dustjs-helpers": "1.5.0",
-    "dustjs-linkedin": "3.0.0",
+    "dustjs-linkedin": "3.0.1",
     "ejs": "3.1.10",
     "ejs-locals": "1.0.2",
     "errorhandler": "1.4.3",
@@ -34,7 +34,7 @@
     "lodash": "4.17.21",
     "marked": "4.0.10",
     "method-override": "latest",
-    "moment": "2.29.2",
+    "moment": "2.29.4",
     "mongodb": "^3.5.9",
     "mongoose": "6.13.6",
     "morgan": "^1.10.1",
@@ -52,6 +52,11 @@
     "browserify": "^13.1.1",
     "nodemon": "^2.0.7",
     "snyk": "^1.244.0"
+  },
+  "overrides": {
+    "sha.js": "2.4.12",
+    "highlight.js": "10.4.1",
+    "debug": "4.3.4"
   },
   "license": "Apache-2.0"
 }
